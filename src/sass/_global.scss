@@ -1,0 +1,519 @@
+
+
+.text-white-75 {
+	color: fade-out($white, .25);
+}
+
+hr.divider {
+	max-width: 3.25rem;
+	border-width: 0.2rem;
+	border-color: $primary;
+}
+
+.btn {
+	font-family: $font-family-sans-serif;
+}
+
+#gatsby-focus-wrapper{
+	width: 100% !important;
+}
+.btn-xl {
+	padding: 1.25rem 2.25rem;
+	font-size: 0.85rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 10rem;
+}
+
+.page-section {
+	width: 100%;
+	padding: 6.5rem 20px 6rem 20px ;
+}
+
+.modal-backdrop {
+	background-color: #0b0b0b;
+}
+
+.modal-backdrop.show {
+	opacity: 0.8;
+}
+
+.b_f{
+	font-family: "Comic Sans MS";
+}
+.title_box h2{
+	font-family: "Comic Sans MS";
+}
+
+.page-section-wrapper, .navbar-wrapper{
+	width: 98%;
+	max-width: 1140px;
+	margin: 0 auto;
+	height: auto;
+}
+
+.blue_color{
+	color: #1E90FF;
+}
+.site-container {
+	 width: 100%;
+	 padding: 0px !important;
+}
+#comfort {
+	background-size: cover;
+	background-position: center;
+	background-image:  url('../images/4july.png');
+	background-repeat: no-repeat;
+	padding-bottom: 30px !important;
+}
+
+#contact{
+	width: 100%;
+	max-width: 1455px;
+	height: auto;
+	margin: 0 auto;
+	background-size: cover;
+	background-position: center;
+	background-image:  url('../images/blue_buble.png');
+	background-repeat: no-repeat;
+}
+
+.green_bg{
+	width: 100%;
+	max-width: 1455px;
+	height: auto;
+	margin: 0 auto;
+	background-size: cover;
+	background-position: center;
+	background-image:  url('../images/green.jpg');
+	background-repeat: no-repeat;
+}
+
+
+#fotogallery{
+	width: 100%;
+	max-width: 1455px;
+	height: auto;
+	margin: 0 auto;
+	background-size: cover;
+	background-position: center;
+	background-image:  url('../images/green.jpg');
+}
+
+.title_box{
+    width: 314px;
+    height: 133px;
+    padding-top: 20px;
+    margin: 0 auto;
+    background-image: url("../assets/images/cloud.png");
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.media-body{
+	margin-left: 20px;
+}
+
+.p-p{
+	font-size: 14px !important;
+	font-weight: 400;
+}
+
+.callback{
+	display: block;
+	width: auto;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.contact-phone{
+	display: block;
+	padding-left: 10px;
+	width: 180px;
+	height: 30px;
+	color: white;
+	font-family: Geometria;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 700;
+	color: #6495ED;
+}
+
+
+.form-t-style{
+	color: white;
+	text-transform: uppercase;
+	padding-left: 30px;
+}
+
+
+.btn-boyar{
+	color: white;
+	background-color: $boyar;
+	border-radius: 20px;
+}
+.btn-boyar:hover{
+	color: white;
+}
+
+.b_color{
+	color:$grey;
+}
+
+// SLIDE SWITHCERS
+.slide_swithcers{
+	width: 108px;
+	height: 14px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.small_switch_btn{
+	border-radius: 50%;
+	width: 14px;
+	height: 14px;
+	background-color: #d1dce7;
+}
+.small_switch_btn:active{
+	background-color: #456eb6;
+}
+
+.inform_box{
+	border-left: 3px solid red;
+	padding-left: 10px;
+	margin-top: 65px;
+	font-size: 20px;
+}
+
+.comfort_item{
+	width: 270px;
+	min-height: 562px;
+	margin-bottom: 50px !important;
+	margin-left: 5px;
+	margin-right: 5px;
+	position: relative !important;
+	background-color: white;
+		img {
+			display: block;
+			margin-top: -20px;
+			margin-left: 2%;
+			width: 96%;
+			height: 180px;
+			
+		}
+		span{
+			display: block;
+			margin-top: 20px;
+			width: 100%;
+			font-family: "Comic Sans MS";
+			font-size: 24px;
+			font-weight: 700;
+			padding-left: 2%;
+			text-transform: uppercase;
+		}
+		p{
+			padding-left: 2%;
+			padding-right: 2%;
+			display: block;
+			margin-top: 10px;
+			font-size: 13px;
+			font-weight: 400;
+			color: #464452;
+		}
+}
+
+.bf1{
+	width: auto;
+	height: auto;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-around;
+}
+.comforts-box, .gallery-box {
+	width: 100%;
+	display: flex;
+	margin-top: 20px;
+	height: auto;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: baseline;
+}
+
+.comforts-box{
+	padding: 0 10px;
+}
+
+.camp_prog_desc{
+	display: block;
+	width: 98%;
+	height: auto;
+	max-width: 1087px;
+	color: #ffffff;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+
+.prog_about{
+	width: 100%;
+	max-width: 860px;
+	margin: 20px auto;
+	font-family: "Comic Sans MS";
+	span{
+		font-weight: 400;
+		color: red;
+		display: block;
+		text-transform: uppercase;
+		margin-top: 14px;
+		margin-bottom: 10px;
+	}
+	p{
+		line-height: normal !important;
+	}
+}
+.camp_prog_h{
+	width: 100%;
+	display: block;
+	text-align: left;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+
+tr, td{
+	text-align: center;
+	font-size: 12px;
+}
+.table-head-info{
+	span {
+		font-size: 12px;
+		font-weight: 700;
+		display: block;
+	}
+}
+
+
+.phone-square{
+	width: 34px;
+	height: 34px;
+	background-image: url(../images/call.svg);
+	background-size: cover;
+}
+
+.races{
+	margin-top: 26px;
+	margin-bottom: 65px;
+}
+.race-row{
+	 width: 100%;
+	 min-height: 70px;
+	 margin-bottom: 30px;
+	 cursor: pointer;
+}
+
+.camp-container  {
+	color: black !important;
+	font-size: 18px !important;
+	font-family: "Comic Sans MS";
+}
+
+.race-open, .race-close {
+	width: 28px !important;
+	height: 28px !important;
+	border-radius: 50%;
+	margin-top: 14px;
+	margin-right: 14px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.race-open img, .race-close img {
+	width: 28px; height: 28px;
+}
+.race-title{
+	font-weight: bold;
+	font-size: 18px;
+	padding-left: 10px;
+	padding-right: 10px;
+	min-height: 40px;
+	margin-top: 20px;
+	max-width: 400px;
+	text-transform: uppercase;
+	padding-bottom: 16px;
+}
+
+.race-content{
+	padding: 16px;
+	font-size: 16px;
+}
+
+.shadow{
+	box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.22);
+  }
+@media (max-width: 1159px){
+	.comfort_item {
+		height: auto;
+		span{
+			font-size: 18px;
+		}
+		p{
+			font-size: 12px;
+		}
+	}
+	
+}
+
+
+@media (max-width: 1140px){
+	.comfort_item {
+		span{
+			font-size: 18px;
+		}
+		p{
+			font-size: 12px;
+		}
+	}
+	.comment{
+		width: 80% !important;
+		p{
+			font-size: 18px !important;
+		}
+	}
+	
+}
+
+@media (max-width:990px){
+	.p-p{
+		font-size: 13px !important;
+	}
+	.head-logo{
+		width: 100px !important;
+		height: 46px !important;
+		background-size: cover;
+		// background-image: url("../assets/images/campsmall.png");
+		background-image: url(../assets/images/campsmall.png);
+	}
+	.team_container{
+		padding-left: 16px !important;
+		padding-right: 16px !important;
+	}
+	.team-member{
+		width: 242px;
+		height: 324px;
+		margin-right: 16px;
+	}
+	
+	.team-mate-position{
+		font-size: 14px;
+		
+	}
+	.team-mate-name{font-size: 18px;}
+	.team_container_lg{
+		display: none !important;
+	}
+	.team_container_sm{
+		width: 98%;
+		display: block !important;
+		margin: 0 auto;
+		position: relative;
+	}
+}
+
+@media (max-width: 800px){
+	.comment{width: 70% !important;}
+}
+
+@media (max-width: 700px){
+	.comfort_item{
+		width: 100%;
+		max-width: 360px;
+		margin-bottom: 20px;
+	}
+	.comfort_item img {
+		height: auto ;
+	}
+	.langs{
+		display: none;
+	}
+}
+
+@media (max-width: 680px){
+	.hide{
+		display: none;
+	}
+	.show{
+		display: block !important;
+		z-index: 9999;
+	}
+	.person{
+		width: 48px !important;
+		height: 48px !important;
+	}
+	.comments-nav{
+		width: 320px !important;
+	}
+	.comment{
+		width: 98% !important;
+		margin: 0 auto;
+	}
+}
+
+
+@media (max-width: 580px){
+	.p-p{
+		padding-top: 30px;
+		font-size: 15px !important;
+	}
+	.person{
+		width: 35px !important;
+		height: 35px !important;
+	}
+	.comments-nav{
+		width: 250px !important;
+	}
+	.comments_container{
+		height: 560px !important;
+	}
+	.comment{
+		width: 98% !important;
+		margin: 0 auto;
+		height: 300px !important;
+	}
+	.comment p{
+		font-size: 14px !important;
+	}
+}
+
+
+#podiaka .container{
+	display: flex;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+#podiaka .wrapper {
+	border: 4px solid tomato;
+	border-radius: 10px;
+	padding: 40px 30px;
+	font-family: "Comic Sans MS";
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#podiaka .wrapper h1{
+	margin-bottom: 30px;
+	font-family: "Comic Sans MS";
+}
+#podiaka .wrapper p {
+	margin-bottom: 36px;
+	font-size: 18px;
+}
+#podiaka .wrapper a {
+	text-decoration: none;
+}
